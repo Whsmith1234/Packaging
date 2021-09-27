@@ -1,0 +1,55 @@
+canvas{
+    float: left;
+    margin-top: 0;
+    
+    width: calc(100vw) !important;
+}
+main{
+    margin: 0;
+    float: left;
+}
+.sidebar{
+    position: absolute;
+    height: calc(100vh - 140px);
+    float:left;
+    border-style: none;
+    box-shadow: 1px 1px rgba(240,240,240);
+    background-color: white;
+}
+input{
+    margin-bottom: 10px !important;
+    width:100%;
+}
+nav{
+    box-shadow: 2px 2px rgba(240,240,240);
+    margin-bottom: 2px;
+    height:55px;
+    padding:5px !important;
+}
+.navbar-toggler{
+    margin-right: 5px;
+}
+a{
+    margin-right: 40px;
+}
+.btn-primary{
+    width:100%;
+}
+.show{
+    width:250px !important;
+}
+.hide{
+    display:none;
+}
+svg:hover{
+    color:#0d6efd;
+}
+body{
+    background-color:rgba(255,255,250,1);
+    overflow: hidden;
+    position:fixed;
+    height:100vh;
+}
+html{
+    height: 100%;
+}
